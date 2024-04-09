@@ -1,4 +1,4 @@
-# Todo lo que necesitas saber: Preguntas y respuestas sobre JavaScript.La Guía completa de JavaScript.🥇
+# Todo lo que necesitas saber sobre JavaScript, La Guía completa de JavaScript desde Cero.🥇
 
 #### Esta es tu guía definitiva para comprender los conceptos fundamentales y avanzados de JavaScript. Desde las nociones básicas hasta los temas más complejos, explorarás una amplia variedad de preguntas y respuestas diseñadas para ayudarte a dominar este poderoso lenguaje de programación. Ya sea que estés comenzando tu viaje en el desarrollo web o buscando ampliar tus conocimientos, esta guía te proporcionará la información necesaria para convertirte en un experto en JavaScript.
 

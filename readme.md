@@ -4,8 +4,6 @@
 
 ![Guia completa de JavaScript](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/guia-completa-de-javascript-desde-cero.png)
 
-
-
 #### 1. Variables y Tipos de Datos
 
     // Declaración de variables
@@ -256,6 +254,23 @@
     console.log(impares);
     // Imprime: [1, 3, 5]
 
+    Retornar solo el elemento manzana que existe en el Array
+    const frutas = ["manzana", "banana", "pera", "uva"];
+
+    // Filtrar las ocurrencias de "manzana" en el array de frutas
+    const manzanas = frutas.filter(fruta => fruta === "manzana");
+
+    console.log(manzanas);
+    // Resultado: ["manzana"]
+
+
+    Para retornar todos los elementos del array excepto "pera"
+    // Filtrar todas las frutas excepto "pera"
+    const frutasExceptoPera = frutas.filter(fruta => fruta !== "pera");
+
+    console.log(frutasExceptoPera);
+    // Resultado: ["manzana", "banana", "uva"]
+
 #### 24. Método reduce()
 
 ##### El método reduce() en JavaScript para reducir un array numeros a un único valor. Se suma todos los números del array utilizando la función de reducción, comenzando con un valor inicial de 0, lo que resulta en la impresión del valor total de 15.
@@ -265,6 +280,40 @@
     let suma = numeros.reduce((total, numero) => total + numero, 0);
     console.log(suma);
     // Imprime: 15
+
+#### 25. Método some()
+
+##### El método some() se utiliza en JavaScript para verificar si al menos un elemento de un array cumple con cierta condición especificada en una función de retorno. Consiste en iterar sobre cada elemento del array y devuelve true si al menos un elemento cumple con la condición, y false si ningún elemento la cumple. Este método es útil cuando se desea verificar si al menos un elemento de un array satisface ciertos criterios sin necesidad de iterar manualmente.
+
+    const numeros = [1, 2, 3, 4, 5];
+
+    // Verificar si al menos un número es mayor que 3
+    const resultado = numeros.some(numero => numero > 3);
+
+    console.log(resultado);
+    // Resultado: true, ya que 4 y 5 son mayores que 3
+
+#### 26. Método find()
+
+##### El método find() se utiliza en JavaScript para encontrar el primer elemento en un array que cumple con cierta condición especificada en una función de retorno. Consiste en iterar sobre cada elemento del array y devuelve el primer elemento que cumple con la condición, o undefined si ningún elemento la cumple. Este método es útil cuando se desea encontrar un elemento específico en un array basado en ciertos criterios.
+
+    const numeros = [1, 2, 3, 4, 5];
+
+    // Encontrar el primer número mayor que 3
+    const encontrado = numeros.find(numero => numero > 3);
+
+    console.log(encontrado); // Resultado: 4, ya que es el primer número mayor que 3
+
+#### 27. Método every()
+
+#### El método every() se utiliza en JavaScript para verificar si todos los elementos de un array cumplen con cierta condición especificada en una función de retorno. Consiste en iterar sobre cada elemento del array y devuelve true si todos los elementos cumplen con la condición, o false en caso contrario. Este método es útil cuando se desea verificar si todos los elementos de un array satisfacen ciertos criterios.
+
+    const numeros = [1, 2, 3, 4, 5];
+
+    // Verificar si todos los números son mayores que 0
+    const todosMayoresQueCero = numeros.every(numero => numero > 0);
+
+    console.log(todosMayoresQueCero); // Resultado: true, ya que todos los números son mayores que 0
 
 #### 25. Funciones Flecha
 

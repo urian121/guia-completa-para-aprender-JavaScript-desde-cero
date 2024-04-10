@@ -315,7 +315,118 @@
 
     console.log(todosMayoresQueCero); // Resultado: true, ya que todos los números son mayores que 0
 
-#### 25. Funciones Flecha
+#### 28. Método concat()
+
+##### El método concat() se utiliza para concatenar dos o más arrays en uno nuevo.
+
+    const array1 = [1, 2, 3];
+    const array2 = [4, 5, 6];
+    const array3 = [7, 8, 9];
+
+    // Concatenar los tres arrays en uno nuevo
+    const newArray = array1.concat(array2, array3);
+
+    console.log(newArray);
+    // Resultado: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+#### 29. El método toString()
+
+##### El método toString() devuelve una cadena de caracteres representando el array especificado y sus elementos.
+
+    const array1 = [1, 2, 'a', 'HTML'];
+
+    console.log(array1.toString());
+    // Resultado: "1,2,a,HTML"
+
+#### 30. Convertir un número a una cadena
+
+    var numero = 123;
+    var cadena = numero.toString();
+
+    console.log(cadena);
+    // Salida: "123"
+
+#### 31. Convertir una fecha a una cadena
+
+    var fecha = new Date();
+    var cadena = fecha.toString();
+
+    console.log(cadena);
+    // Salida: "Mon Apr 09 2024 20:21:12 GMT-0500 (Colombia Standard Time)"
+
+#### 32. Convertir una función a una cadena
+
+    function saludar() {
+    console.log("¡Hola!");
+    }
+
+    var cadena = saludar.toString();
+
+    console.log(cadena);
+    // Salida: "function saludar() { console.log('¡Hola!'); }"
+
+#### 33. Convertir un objeto a una cadena
+
+    var objeto = {
+    nombre: "Juan",
+    edad: 25
+    };
+
+    var cadena = objeto.toString();
+
+    console.log(cadena); // Salida: "[object Object]"
+
+#### 34. Anular el método toString()
+
+##### Es posible anular el método toString() en un objeto para proporcionar una representación de cadena personalizada.
+
+    var persona = {
+    nombre: "Juan",
+    edad: 25,
+    toString: function() {
+        return this.nombre + " (" + this.edad + " años)";
+    }
+    };
+
+    var cadena = persona.toString();
+
+    console.log(cadena);
+    // Salida: "Juan (25 años)"
+
+#### 35. Método values()
+
+##### El método values() en JavaScript se usa para obtener un array con los valores de las propiedades enumerables de un objeto. El orden de los valores en el array es el mismo que el orden de las propiedades en el objeto.
+
+    const persona = {
+        nombre: "Juan",
+        edad: 25,
+        ciudad: "Bogotá"
+    };
+
+    const valores = Object.values(persona);
+
+    console.log(valores);
+    // Salida: ["Juan", 25, "Bogotá"]
+
+#### 36. Método findIndex()
+
+##### El método findIndex() en JavaScript se usa para encontrar el índice del primer elemento en un array que cumple con una condición específica. El método devuelve -1 si no se encuentra ningún elemento que cumpla con la condición.
+
+    const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    const indice = numeros.findIndex(numero => numero % 2 === 0);
+
+    console.log(indice);
+    // Salida: 1
+
+    Otro ejemplo del Método findIndex()
+
+    const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const indice = numeros.findIndex(numero => numero > 5);
+    console.log(indice);
+    // Salida: 5
+
+#### 25. Funciones de Flecha
 
 ##### Sintaxis de las funciones flecha en JavaScript, que proporcionan una forma más concisa de escribir funciones. Se compara una función normal suma() con una función flecha equivalente, ambas realizando la misma operación de suma de dos números a y b.
 

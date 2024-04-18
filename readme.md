@@ -6,6 +6,16 @@
 
 #### 1. Variables y Tipos de Datos
 
+    Existen siete tipos primitivos de datos:
+
+    Números, Un valor numérico se compone de cualquier serie de caracteres numéricos, por ejemplo: 5
+    Cadenas, Cualquier conjunto de caracteres (letras, números, símbolos, etc.) entre un conjunto de comillas dobles ("), comillas simples (') o comillas simples (`) es una primitiva de string.
+    Booleanos, La primitiva booleana es un tipo de datos lógico con solo dos valores: true y false
+    null, La palabra clave null representa una ausencia de valor definida de forma intencional.
+    undefined, es un valor básico asignado a variables que se acaban de declarar o al valor resultante de una operación que no muestra un valor significativo.
+    BigInt, Las primitivas BigInt son una agregación relativamente nueva a JavaScript, lo que permite operaciones matemáticas en números fuera del rango permitido por Number
+    Símbolo, Los símbolos son una primitiva relativamente nueva que se introdujo en ES6. Una primitiva de símbolo representa un valor único que nunca coincide con ningún otro valor, incluidos los de otras primitivas de símbolos
+
     // Declaración de variables
     let nombre = "Juan";
     const PI = 3.14;
@@ -942,6 +952,31 @@
 
     console.log("Fruta agregada al final del array:", frutas);
 
+#### Expresiones
+
+##### Una expresión es una unidad de código que da como resultado un valor
+
+    2 + 2 es una expresión que da como resultado el valor 4
+    Cuál crees que seria la salida de este código?
+    console.log(2 + 2 * 4);
+    //Salidad 10
+    En JavaScript, la multiplicación (*) tiene una precedencia mayor que la suma (+). Entonces, primero se evalúa la multiplicación (2 * 4), que es igual a 8, y luego se suma 2 al resultado (8 + 2), lo que da como resultado 10.
+    Es recomendable ser más especifico con la operación ejemplo:
+    console.log(( 2 + 2 ) * 4);
+
+#### Distinción entre mayúsculas y minúsculas
+
+    JavaScript distingue por completo entre mayúsculas y minúsculas.
+
+#### Espacio en blanco
+
+    En JavaScript, los espacios en blanco, como los espacios, las tabulaciones y las líneas nuevas, generalmente se denominan "espacios en blanco". Estos caracteres en blanco no tienen ningún efecto en el comportamiento del código JavaScript en sí mismo, pero son importantes para la legibilidad del código y para separar tokens (como palabras clave, operadores y variables) para que el intérprete de JavaScript pueda entender el código correctamente.
+    console.log(       "Hola Mundo"  );
+
+#### Las variables
+
+    Son una estructura de datos que asigna un nombre representativo a un valor. Pueden contener datos de cualquier tipo.
+
 # Preguntas y Respuestas 😱
 
 #### ¿Cuál es la salida de este código?
@@ -1021,3 +1056,12 @@
 
     console.log(miArrayNumeros.fill(0));
     //Salida: [1, 1, 1]
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+
+## No olvides SUSCRIBIRTE 👍

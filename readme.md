@@ -1,6 +1,6 @@
 # Lista de Métodos más usados en JavaScript 🥇
 
-#### Esta es tu guía definitiva para comprender todos los **Métodos de JavaScript** más usados. Desde las nociones básicas hasta los temas más complejos, explorarás una amplia variedad de ejemplos y respuestas diseñadas para ayudarte a dominar este poderoso lenguaje de programación. Ya sea que estés comenzando tu viaje en el desarrollo web o buscando ampliar tus conocimientos, esta guía te proporcionará la información necesaria para convertirte en un experto en JavaScript.
+###### Esta es tu guía definitiva para comprender todos los **Métodos de JavaScript** más usados. Desde las nociones básicas hasta los temas más complejos, explorarás una amplia variedad de ejemplos y respuestas diseñadas para ayudarte a dominar este poderoso lenguaje de programación. Ya sea que estés comenzando tu viaje en el desarrollo web o buscando ampliar tus conocimientos, esta guía te proporcionará la información necesaria para convertirte en un experto en JavaScript.
 
 
 ![Guia completa de JavaScript](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/guia-completa-para-dominar-javascript.png)
